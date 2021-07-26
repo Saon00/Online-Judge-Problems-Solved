@@ -6,7 +6,7 @@ public class Solution {
         int n = scan.nextInt(), k = scan.nextInt();
         
         while (k-- > 0) {
-            n = lastNumber(n) == 0 ? n / 10 : n - 1;
+            n = lastNumber(n) == 0 ? n / 10 : n - 1; // or // n = n%10 == 0 ? n / 10 : n - 1;   
         }
         System.out.println(n);
 
